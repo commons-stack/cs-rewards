@@ -2,7 +2,7 @@
   "distribution_name": "round-1",
   "results_output_folder": "distribution_results",
   "employed_reward_systems": ["praise"],
-  "token_allocation_per_reward_system": ["1000"],
+  "token_allocation_per_reward_system": ["40000"],
   "system_settings": {
     "praise": {
       "input_files": {
@@ -17,7 +17,8 @@
       "token_reward_percentages": {
         "contributor_rewards": 0.9,
         "quantifier_rewards": 0.07,
-        "rewardboard_rewards": 0.03
+        "rewardboard_rewards": 0.03,
+        "ceiling_cutoff": 1000
       },
       "quantification_settings": {
         "number_of_quantifiers_per_praise_receiver": 3,
@@ -28,8 +29,8 @@
         "praise_quantify_duplicate_praise_valuation": 0.1
       },
       "cross_period_settings": {
-        "cross_period_week_num": 40,
-        "cross_period_step_size": 2
+        "cross_period_week_num": 3,
+        "cross_period_step_size": 1
       }
     }
   }
