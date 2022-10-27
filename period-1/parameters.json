@@ -15,9 +15,9 @@
         "token_address": "0x0f478Fc765Ed7a5C52627B0acDFa351FB94309e4"
       },
       "token_reward_percentages": {
-        "contributor_rewards": 0.9,
-        "quantifier_rewards": 0.07,
-        "rewardboard_rewards": 0.03,
+        "contributor_rewards": 0.85,
+        "quantifier_rewards": 0.1,
+        "rewardboard_rewards": 0.05,
         "ceiling_cutoff": 1000
       },
       "quantification_settings": {

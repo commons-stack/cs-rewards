@@ -1,8 +1,8 @@
 {
-  "distribution_name": "round-1",
+  "distribution_name": "round-2",
   "results_output_folder": "distribution_results",
   "employed_reward_systems": ["praise"],
-  "token_allocation_per_reward_system": ["40000"],
+  "token_allocation_per_reward_system": ["80000"],
   "system_settings": {
     "praise": {
       "input_files": {
